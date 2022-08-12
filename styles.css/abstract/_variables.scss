@@ -1,0 +1,19 @@
+$cor-cinza: #667085;
+$cor-vermelha: #8E2424;
+$cor-branca: #FFF;
+$cor-azul-escuro: #101828;
+
+@mixin button() {
+    width: 112px;
+    height: 44px;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    cursor: pointer;
+    transition: 0.5s;
+    &:hover{
+        font-size: 1.05em;
+    }
+}

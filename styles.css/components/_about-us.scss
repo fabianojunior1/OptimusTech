@@ -1,0 +1,32 @@
+@import '../abstract/variables';
+
+.about-us {
+    padding: 5em;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    .introducao {
+        color: $cor-vermelha;
+        font-weight: 600;
+        font-size: 1em;
+        margin-bottom: 2em;
+    }
+
+    .titulo {
+        font-size: 3em;
+        margin-bottom: 2rem;
+        font-weight: 600;
+        color: $cor-azul-escuro;
+    }
+
+    .descricao {
+        font-size: 1.25em;
+        color: $cor-cinza;
+        line-height: 1.5em;
+        font-weight: 400;
+        width: 800px;
+        margin: 0 auto;
+    }
+}

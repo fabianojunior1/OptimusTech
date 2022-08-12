@@ -1,0 +1,186 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+.container__nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 0;
+}
+.container__nav .logo {
+  margin-left: 1em;
+}
+.container__nav .nav-lista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+.container__nav .nav-lista .nav-item {
+  padding-right: 2em;
+  text-decoration: none;
+  color: #667085;
+  transition: 0.5s;
+}
+.container__nav .nav-lista .nav-item:hover {
+  font-size: 1.05em;
+}
+.container__nav .buttons {
+  display: flex;
+  margin-right: 1em;
+}
+.container__nav .buttons .login-button {
+  width: 112px;
+  height: 44px;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 0.5s;
+  background-color: #FFF;
+  color: #667085;
+}
+.container__nav .buttons .login-button:hover {
+  font-size: 1.05em;
+}
+.container__nav .buttons .signIn-button {
+  width: 112px;
+  height: 44px;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 0.5s;
+  color: #FFF;
+  background-color: #8E2424;
+}
+.container__nav .buttons .signIn-button:hover {
+  font-size: 1.05em;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* CLASSES */
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0px 16px;
+}
+@media (min-width: 1440) {
+  .container {
+    max-width: 1050px;
+  }
+}
+
+.about-us {
+  padding: 5em;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.about-us .introducao {
+  color: #8E2424;
+  font-weight: 600;
+  font-size: 1em;
+  margin-bottom: 2em;
+}
+.about-us .titulo {
+  font-size: 3em;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  color: #101828;
+}
+.about-us .descricao {
+  font-size: 1.25em;
+  color: #667085;
+  line-height: 1.5em;
+  font-weight: 400;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  margin-top: 3em;
+  width: 1280px;
+}
+.cards .card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 1rem;
+  width: 280px;
+  height: 192px;
+}
+.cards .card .numero-card {
+  color: #8E2424;
+  font-weight: 600;
+  font-size: 60px;
+  margin-bottom: 0.75rem;
+}
+.cards .card .titulo-card {
+  font-size: 1.1rem;
+  color: #101828;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.cards .card .descricao-card {
+  color: #667085;
+  line-height: 24px;
+  font-weight: 400;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,46 @@
+@import '../abstract/variables';
+
+.container__nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+
+    .logo {
+        margin-left: 1em;
+    }
+
+    .nav-lista {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+
+        .nav-item {
+            padding-right: 2em;
+            text-decoration: none;
+            color: $cor-cinza;
+            transition: 0.5s;
+            &:hover {
+                font-size: 1.05em;
+            }
+        }
+    }
+
+    .buttons {
+        display: flex;
+        margin-right: 1em;
+
+        .login-button {
+            @include button;
+            background-color: $cor-branca;
+            color: $cor-cinza;
+        }
+
+        .signIn-button {
+            @include button;
+            color: $cor-branca;
+            background-color: $cor-vermelha; 
+        }
+    }
+
+}
