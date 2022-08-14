@@ -1,0 +1,43 @@
+@import '../abstract/variables';
+
+.footer {
+    padding: 6em;
+    text-align: center;
+
+    .titulo {
+        font-weight: 600;
+        font-size: 2.25em;
+        color: $cor-azul-escuro;
+    }
+
+    .descricao {
+        margin-top: 1.5rem;
+        color: $cor-cinza;
+        font-weight: 400;
+    }
+
+    .formulario {
+        margin-top: 1.5em;
+
+        .campo {
+            border: 1px solid $cor-cinza-claro;
+            border-radius: 0.5rem;
+            width: 300px;
+            padding: 1rem;
+            margin-right: 0.5rem;
+        }
+
+        .button {
+            @include button();
+            background-color: $cor-vermelha;
+            color: $cor-branca;
+        }
+    }
+
+    .direitos-autorais {
+        margin-top: 2em;
+        color: $cor-cinza;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}

@@ -1,0 +1,46 @@
+@import '../abstract/variables';
+
+.documents {
+    text-align: center;
+    padding: 4em;
+
+    .titulo {
+        color: $cor-vermelha;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .descricao {
+        color: $cor-azul-escuro;
+        font-size: 2.25rem;
+        margin-top: 1rem;
+        font-weight: 500;
+    }
+
+    .avatar {
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+
+        .image {
+            width: 56px;
+            height: 56px;
+            margin: 0 auto;
+        }
+
+        .nome {
+            font-weight: 500;
+            color: $cor-azul-escuro;
+            font-size: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .profissao {
+            color: $cor-cinza;
+            font-weight: 400;
+            margin-top: 0.25rem;
+            font-size: 14px;
+        }
+    }
+
+}
