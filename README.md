@@ -1,6 +1,6 @@
 ## 💼 OptimusTech
 
-<p>Esta aplicação faz parte do Desafio 7DaysOfCode feito pelo Alura, onde apliquei SASS pela primeira vez para o auxílio na estilização da página.</p>
+<p>Esta aplicação faz parte do Desafio 7DaysOfCode feito pelo Alura, onde apliquei SASS pela primeira vez para o auxílio da estilização da página.</p>
 
 ## ⚙ Demo 
 https://optimus-tech-psi.vercel.app/
