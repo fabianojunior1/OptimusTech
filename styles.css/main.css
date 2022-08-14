@@ -120,7 +120,7 @@ body {
   margin: 0 auto;
   padding: 0px 16px;
 }
-@media (min-width: 1440) {
+@media (min-width: 1280) {
   .container {
     max-width: 1050px;
   }
@@ -157,6 +157,7 @@ body {
 .cards {
   display: flex;
   width: 1280px;
+  padding-bottom: 6em;
 }
 .cards .card {
   display: flex;
@@ -182,4 +183,75 @@ body {
   color: #667085;
   line-height: 24px;
   font-weight: 400;
+}
+
+.vagas {
+  text-align: center;
+}
+.vagas .introducao {
+  color: #8E2424;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: rgba(142, 36, 36, 0.05);
+  padding: 0.25rem 0.75rem;
+  border-radius: 1em;
+}
+.vagas .titulo {
+  font-size: 2.25em;
+  font-weight: 600;
+  margin-top: 1em;
+  color: #101828;
+}
+.vagas .descricao {
+  margin-top: 1.5em;
+  margin-bottom: 3rem;
+  color: #667085;
+  font-size: 20px;
+}
+.vagas .image {
+  border-radius: 10px;
+}
+
+.design {
+  width: 768px;
+  margin-top: 4rem;
+}
+.design .area {
+  font-size: 20px;
+  font-weight: 500;
+  color: #101828;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+.design .area-secundaria {
+  font-size: 20px;
+  font-weight: 500;
+  color: #101828;
+  display: block;
+  margin-bottom: 1.5rem;
+  margin-top: 2em;
+}
+.design .card {
+  margin-bottom: 1.5em;
+  border: 1px solid rgb(234, 236, 240);
+  border-radius: 1em;
+  padding: 1.5em;
+}
+.design .card .profissao {
+  font-size: 18px;
+  font-weight: 500;
+  color: #101828;
+  display: block;
+  margin-bottom: 2rem;
+}
+.design .card .hora-trabalho {
+  color: #667085;
+  font-size: 1em;
+  margin-right: 1.5em;
+  font-weight: 500;
+}
+.design .card .faixa-salarial {
+  color: #667085;
+  font-size: 1em;
+  font-weight: 500;
 }/*# sourceMappingURL=main.css.map */

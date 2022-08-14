@@ -1,0 +1,74 @@
+@import '../abstract/variables';
+
+.vagas {
+    text-align: center;
+
+    .introducao{
+        color: $cor-vermelha;
+        font-size: 14px;
+        font-weight: 500;
+        background-color: $cor-vermelho-claro;
+        padding: 0.25rem 0.75rem;
+        border-radius: 1em;
+    }
+
+    .titulo {
+        font-size: 2.25em;
+        font-weight: 600;
+        margin-top: 1em;
+        color: $cor-azul-escuro;
+    }
+
+    .descricao {
+        margin-top: 1.5em;
+        margin-bottom: 3rem;
+        color: $cor-cinza;
+        font-size: 20px;
+    }
+
+    .image {
+        border-radius: 10px;
+    }
+}
+
+.design {
+    width: 768px;
+    margin-top: 4rem;
+
+    .area {
+        @include area();
+    }
+
+    .area-secundaria {
+        @include area();
+        margin-top: 2em;
+    }
+
+    .card {
+        margin-bottom: 1.5em;
+        border: 1px solid $cor-cinza-claro;
+        border-radius: 1em;
+        padding: 1.5em;
+        .profissao {
+            font-size: 18px;
+            font-weight: 500;
+            color: $cor-azul-escuro;
+            display: block;
+            margin-bottom: 2rem;
+        }
+    
+        .hora-trabalho {
+            color: $cor-cinza;
+            font-size: 1em;
+            margin-right: 1.5em;
+            font-weight: 500;
+        }
+    
+        .faixa-salarial {
+            color: $cor-cinza;
+            font-size: 1em;
+            font-weight: 500;
+        }
+    
+    }
+}
