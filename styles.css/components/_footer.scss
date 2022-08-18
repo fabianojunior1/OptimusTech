@@ -22,7 +22,7 @@
         .campo {
             border: 1px solid $cor-cinza-claro;
             border-radius: 0.5rem;
-            width: 300px;
+            width: 50%;
             padding: 1rem;
             margin-right: 0.5rem;
         }
@@ -39,5 +39,11 @@
         color: $cor-cinza;
         font-size: 1rem;
         font-weight: 400;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .footer{
+        padding: 2rem;
     }
 }

@@ -107,6 +107,14 @@ input {
   font-size: 1.05em;
 }
 
+@media screen and (max-width: 850px) {
+  .nav-lista {
+    display: none;
+  }
+  .nav-item {
+    display: none;
+  }
+}
 body {
   font-family: "Inter", sans-serif;
   width: 100vw;
@@ -150,10 +158,14 @@ body {
   color: #667085;
   line-height: 1.5em;
   font-weight: 400;
-  width: 800px;
   margin: 0 auto;
 }
 
+@media screen and (max-width: 850px) {
+  .about-us {
+    padding: 2rem;
+  }
+}
 .cards {
   display: flex;
   width: 1280px;
@@ -209,11 +221,11 @@ body {
   font-size: 20px;
 }
 .vagas .image {
+  width: 80%;
   border-radius: 10px;
 }
 
 .design {
-  width: 768px;
   margin-top: 4rem;
 }
 .design .area {
@@ -256,6 +268,16 @@ body {
   font-weight: 500;
 }
 
+@media screen and (max-width: 850px) {
+  .design {
+    width: 100%;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+}
 .documents {
   text-align: center;
   padding: 4em;
@@ -314,7 +336,7 @@ body {
 .footer .formulario .campo {
   border: 1px solid rgb(234, 236, 240);
   border-radius: 0.5rem;
-  width: 300px;
+  width: 50%;
   padding: 1rem;
   margin-right: 0.5rem;
 }
@@ -339,4 +361,10 @@ body {
   color: #667085;
   font-size: 1rem;
   font-weight: 400;
+}
+
+@media screen and (max-width: 850px) {
+  .footer {
+    padding: 2rem;
+  }
 }/*# sourceMappingURL=main.css.map */

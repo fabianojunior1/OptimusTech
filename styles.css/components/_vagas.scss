@@ -27,12 +27,13 @@
     }
 
     .image {
+        width: 80%;
         border-radius: 10px;
     }
 }
 
 .design {
-    width: 768px;
+    
     margin-top: 4rem;
 
     .area {
@@ -49,6 +50,7 @@
         border: 1px solid $cor-cinza-claro;
         border-radius: 1em;
         padding: 1.5em;
+        
         .profissao {
             font-size: 18px;
             font-weight: 500;
@@ -71,4 +73,17 @@
         }
     
     }
+}
+
+@media screen and (max-width: 850px) {
+    .design {
+        width: 100%;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+    }
+
 }

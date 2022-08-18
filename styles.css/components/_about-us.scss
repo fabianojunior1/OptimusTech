@@ -26,7 +26,12 @@
         color: $cor-cinza;
         line-height: 1.5em;
         font-weight: 400;
-        width: 800px;
         margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .about-us{
+        padding: 2rem;
     }
 }
